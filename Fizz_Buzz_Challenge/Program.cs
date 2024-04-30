@@ -12,8 +12,12 @@ namespace Application
                 if((i % 3 == 0) && (i % 5 == 1))
                 {
                     Console.WriteLine($"{i} - FizzBuzz");
-                } 
-               
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine($"{i} - Fizz");
+                }
+
             }
         }
     }
